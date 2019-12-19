@@ -1,0 +1,7 @@
+Say you are a product manager at Amazon and want to understand what features of a recently released product (say Amazon Alexa) customers are talking about in their reviews. 
+Say you are able to identify that 50% people talk about the hardware, 30% talk about features related to music, while 20% talk about the packaging of the product. 
+That would be pretty useful and cool, right? 
+
+This assignment builds LDA models in Python, starting with identifying the topics in Amazon Alexa's customer reviews.
+
+ 
