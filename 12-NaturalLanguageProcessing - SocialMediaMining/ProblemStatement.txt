@@ -1,0 +1,9 @@
+This project uses multiple concepts you've been taught in this course across the three modules - POS tagging, chunking, word vectors etc. You will also see the Zipf's law (or the power law) in action and learn to compute 'sentiment scores' of documents.
+To build an application to model social cognition patterns, i.e. how people form opinions about socially relevant issues (such as demonetisation) on social media platforms (such as Twitter).
+
+To summarise, after computing the tweet embeddings with the sentiment score, we will:
+
+Cluster the tweets into k clusters, where k is identified using the Silhouette score (the value of k having the maximum average Silhouette score of clusters)
+Identify characteristic phrases by 'chunking' POS tags, such as noun phrase, adjective, followed by a noun, etc.
+Identify the top characteristic phrases (the 'abstraction' element) of each cluster using the TF-IDF scores of phrases
+Finally, compute the sentiment score (the 'expression' element) of each characteristic phrase. This is done by filtering all the tweets containing the phrase and computing the 'most frequently occurring sentiment score' in those tweets.
